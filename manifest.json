@@ -1,10 +1,10 @@
 {
-    "manifest_version": 2, //固定的
+    "manifest_version": 3, //固定的
     "name": "newTab", //插件名称
     "version": "1.1", //插件使用的版本
     "description": "a blank tab", //插件的描述
     "icons": {"16": "cTab_16.png", "48": "cTab_48.png", "128": "cTab_128.png"},
-    "browser_action": { //插件加载后生成图标
+    "action": { //插件加载后生成图标
         "default_icon": "cTab.png",//图标的图片
         "default_title": "new tab"//鼠标移到图标显示的文字
     },
